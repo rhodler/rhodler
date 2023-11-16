@@ -27,10 +27,8 @@ function App() {
         </h1>
         <h2 className="intro">
           Je m'appelle Jean-Marie, passionné par la création de logiciels
-          robustes et intuitifs, je suis fort d'une expérience de{" "}
-          {dayjs("2020-11-16").fromNow(true)} en développement web et déterminé
-          à concevoir des solutions innovantes pour aider les entreprises à
-          atteindre leurs objectifs.
+          robustes et intuitifs. Je suis déterminé à concevoir des solutions
+          innovantes pour aider les entreprises à atteindre leurs objectifs.
         </h2>
         <h3>
           <a href="mailto:contact.rhodler@gmail.com" target="_blank">
@@ -50,6 +48,10 @@ function App() {
           ))}
         </ul>
       </section>
+
+      {/* <section id="experience">
+        <div className="title">Mon expérience</div>
+      </section> */}
 
       <footer>
         <a
