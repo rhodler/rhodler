@@ -6,10 +6,6 @@
 
   > section {
     padding: 50px 35px;
-    > h1 {
-      font-size: 32px;
-      margin-bottom: 32px;
-    }
     > .title {
       white-space: nowrap;
       color: var(--primary-color);
@@ -28,6 +24,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    > h1 {
+      font-size: 32px;
+    }
     > .intro {
       font-weight: 400;
     }
