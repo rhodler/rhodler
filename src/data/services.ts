@@ -12,7 +12,7 @@ export default [
   {
     name: "Développement de smart contracts",
     description:
-      "Je vous accompagnons dans la création et l'implémentation de smart contracts fiables et sécurisés, exploitant la blockchain pour automatiser et garantir l'exécution de vos accords contractuels.",
+      "Je vous accompagne dans la création et l'implémentation de smart contracts fiables et sécurisés, exploitant la blockchain pour automatiser et garantir l'exécution de vos accords contractuels.",
   },
   {
     name: "Responsive design",
