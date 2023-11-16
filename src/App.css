@@ -23,6 +23,16 @@
     }
   }
 
+  > #about {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    > .intro {
+      font-weight: 400;
+    }
+  }
+
   > #services {
     > ul {
       text-align: left;
@@ -54,14 +64,5 @@
   > footer {
     padding: 50px 35px;
     text-align: center;
-    > a {
-      margin-right: 12px;
-      color: var(--primary-color);
-      font-weight: 600;
-      text-transform: uppercase;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
   }
 }

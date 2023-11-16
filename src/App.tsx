@@ -18,20 +18,25 @@ import services from "./data/services";
 function App() {
   return (
     <>
-      <section>
+      <section id="about">
         <h1>
           Salut{" "}
           <span role="img" aria-label="wave">
             👋
           </span>
         </h1>
-        <p>
+        <h2 className="intro">
           Je m'appelle Jean-Marie, passionné par la création de logiciels
           robustes et intuitifs, je suis fort d'une expérience de{" "}
           {dayjs("2020-11-16").fromNow(true)} en développement web et déterminé
           à concevoir des solutions innovantes pour aider les entreprises à
           atteindre leurs objectifs.
-        </p>
+        </h2>
+        <h3>
+          <a href="mailto:contact.rhodler@gmail.com" target="_blank">
+            Me contacter
+          </a>
+        </h3>
       </section>
 
       <section id="services">
