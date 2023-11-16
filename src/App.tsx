@@ -17,35 +17,35 @@ import services from "./data/services";
 
 function App() {
   return (
-    <div className="App">
-      <main>
-        <section>
-          <h1>
-            Salut{" "}
-            <span role="img" aria-label="wave">
-              👋
-            </span>
-          </h1>
-          <p>
-            Je m'appelle Jean-Marie, passionné par la création de logiciels
-            robustes et intuitifs, je suis fort d'une expérience de{" "}
-            {dayjs("2020-11-16").fromNow(true)} en développement web et
-            déterminé à concevoir des solutions innovantes pour aider les
-            entreprises à atteindre leurs objectifs.
-          </p>
-        </section>
-        <section id="services">
-          <h3>Mes services</h3>
-          <ul>
-            {services.map((service) => (
-              <li key={service.name}>
-                <h4>{service.name}</h4>
-                <p>{service.description}</p>
-              </li>
-            ))}
-          </ul>
-        </section>
-      </main>
+    <>
+      <section>
+        <h1>
+          Salut{" "}
+          <span role="img" aria-label="wave">
+            👋
+          </span>
+        </h1>
+        <p>
+          Je m'appelle Jean-Marie, passionné par la création de logiciels
+          robustes et intuitifs, je suis fort d'une expérience de{" "}
+          {dayjs("2020-11-16").fromNow(true)} en développement web et déterminé
+          à concevoir des solutions innovantes pour aider les entreprises à
+          atteindre leurs objectifs.
+        </p>
+      </section>
+
+      <section id="services">
+        <div className="title">Mes services</div>
+        <ul>
+          {services.map((service) => (
+            <li key={service.name}>
+              <h4>{service.name}</h4>
+              <p>{service.description}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+
       <footer>
         <a
           href="https://www.linkedin.com/in/jean-marie-r-727957122"
@@ -62,7 +62,7 @@ function App() {
           GitHub
         </a>
       </footer>
-    </div>
+    </>
   );
 }
 
