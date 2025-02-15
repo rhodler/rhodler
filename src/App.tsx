@@ -22,23 +22,21 @@ function App() {
         <h1>
           Salut{" "}
           <span role="img" aria-label="wave">
-            👋
+          👨🏾‍💻
           </span>
         </h1>
         <h2 className="intro">
-          Je m'appelle Jean-Marie, passionné par la création de logiciels
-          robustes et intuitifs. Je suis déterminé à concevoir des solutions
-          innovantes pour aider les entreprises à atteindre leurs objectifs.
+          Je m'appelle Jean-Marie, passionné par les technologies émergentes, je souhaite contribuer au développement de produits intelligents et performants, tout en collaborant avec des équipes engagées dans l’innovation. Mon objectif est de mettre mes compétences techniques et ma capacité à concevoir des solutions robustes au service de projets ambitieux qui exploitent le potentiel de l’IA pour transformer les usages et apporter une réelle valeur ajoutée.
         </h2>
         <h3>
-          <a href="mailto:contact.rhodler@gmail.com" target="_blank">
+          <a href="mailto:pro.jean-marie@outlook.com" target="_blank">
             Me contacter
           </a>
         </h3>
       </section>
 
       <section id="services">
-        <div className="title">Mes services</div>
+        <div className="title">Mes compétences</div>
         <ul>
           {services.map((service) => (
             <li key={service.name}>
@@ -49,13 +47,12 @@ function App() {
         </ul>
       </section>
 
-      {/* <section id="experience">
-        <div className="title">Mon expérience</div>
-      </section> */}
-
       <footer>
+        <a href="mailto:pro.jean-marie@outlook.com" target="_blank">
+          Email
+        </a>
         <a
-          href="https://www.linkedin.com/in/jean-marie-r-727957122"
+          href="https://www.linkedin.com/in/jm-r/"
           target="_blank"
           rel="noreferrer"
         >

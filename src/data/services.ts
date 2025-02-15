@@ -2,17 +2,12 @@ export default [
   {
     name: "Intégration d'intelligence artificielle",
     description:
-      "Je suis spécialisé dans l'intégration d'intelligence artificielle pour optimiser vos processus métier.",
+      "J’intègre des modèles de langage (LLM) pour améliorer l’expérience utilisateur en développant des solutions innovantes, comme des assistants virtuels, des moteurs de recherche basés sur la sémantique et des systèmes d’automatisation de processus répétitifs.",
   },
   {
     name: "Développement d'API",
     description:
       "J'excelle dans le développement d'API robustes et évolutives pour connecter vos applications et systèmes, favorisant ainsi l'interopérabilité, la sécurité et l'échange de données fluides.",
-  },
-  {
-    name: "Développement de smart contracts",
-    description:
-      "Je vous accompagne dans la création et l'implémentation de smart contracts fiables et sécurisés, exploitant la blockchain pour automatiser et garantir l'exécution de vos accords contractuels.",
   },
   {
     name: "Responsive design",

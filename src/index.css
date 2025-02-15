@@ -12,14 +12,13 @@
   font-family: "Fira Code", sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  --primary-color: rgb(124 58 237);
+  --primary-color: #6E8E59;
 }
 
 body {
   height: 100%;
   width: 100%;
 }
-
 a {
   margin-right: 12px;
   color: var(--primary-color);
