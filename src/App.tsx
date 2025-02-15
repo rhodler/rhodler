@@ -21,12 +21,12 @@ function App() {
       <section id="about">
         <h1>
           Salut{" "}
-          <span role="img" aria-label="wave">
+          <span role="img" aria-label="developer">
           👨🏾‍💻
           </span>
         </h1>
         <h2 className="intro">
-          Je m'appelle Jean-Marie, passionné par les technologies émergentes, je souhaite contribuer au développement de produits intelligents et performants, tout en collaborant avec des équipes engagées dans l’innovation.
+          Je m'appelle Jean-Marie, développeur Fullstack TypeScript, passionné par les technologies émergentes, je souhaite contribuer au développement de produits intelligents et performants, tout en collaborant avec des équipes engagées dans l’innovation.
         </h2>
         <h3>
           <a href="mailto:pro.jean-marie@outlook.com" target="_blank">

@@ -7,7 +7,7 @@ export default [
   {
     name: "Développement d'API",
     description:
-      "J'excelle dans le développement d'API robustes et évolutives pour connecter vos applications et systèmes, favorisant ainsi l'interopérabilité, la sécurité et l'échange de données fluides.",
+      "J’excelle dans le développement d’API robustes et évolutives en TypeScript, facilitant la connexion entre applications et systèmes pour assurer une interopérabilité optimale, une sécurité renforcée et un échange de données fluide.",
   },
   {
     name: "Responsive design",
