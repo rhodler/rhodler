@@ -26,7 +26,7 @@ function App() {
           </span>
         </h1>
         <h2 className="intro">
-          Je m'appelle Jean-Marie, passionné par les technologies émergentes, je souhaite contribuer au développement de produits intelligents et performants, tout en collaborant avec des équipes engagées dans l’innovation. Mon objectif est de mettre mes compétences techniques et ma capacité à concevoir des solutions robustes au service de projets ambitieux qui exploitent le potentiel de l’IA pour transformer les usages et apporter une réelle valeur ajoutée.
+          Je m'appelle Jean-Marie, passionné par les technologies émergentes, je souhaite contribuer au développement de produits intelligents et performants, tout en collaborant avec des équipes engagées dans l’innovation.
         </h2>
         <h3>
           <a href="mailto:pro.jean-marie@outlook.com" target="_blank">
